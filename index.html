@@ -4,57 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Fanpage 1 - Acceuil</title>
+    <title>Fan Pages Acceuil</title>
 
-    <link rel="st0lesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Font+Name"
-    />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
-  <header>
-    <h1>Fanpage</h1>
+  <header class="entete">
+    <h1>Fan pages</h1>
 
-    <nav class="navigation" aria-label="Menu principal">
-      <button type="button">
-        <img
-          src="/home/margaux-solia/Bureau/lptf/projets/b1/runtrack_html/Fanpage/contenu/menu.png"
-          alt="Menu"
-        />
-      </button>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu">☰</button>
+
+    <nav class="menu" id="menu">
+      <a href="fanpage1.html">Linkin Park</a>
+      <a href="fanpage2.html">Gene Vincent</a>
+      <a href="fanpage3.html">Ozzy Osbourne</a>
     </nav>
   </header>
 
   <body>
-    <section class="vinyles">
-      <div class="vinyle">
-        <img
-          src="/home/margaux-solia/Bureau/lptf/projets/b1/runtrack_html/Fanpage/contenu/menu/linkinpark.png"
-          alt="Linkin Park"
-        />
-      </div>
+    <h2>Choisi ton univers</h2>
+    <section class="cds">
+      <a
+        href="fanpage1.html"
+        class="cd"
+        data-audio="contenu/fanpage1/linkinpark_music_extrait.mp3"
+      >
+        <img src="contenu/menu/linkinpark.png" alt="CD Linkin Park" />
+      </a>
 
-      <div class="vinyle">
-        <img
-          src="/home/margaux-solia/Bureau/lptf/projets/b1/runtrack_html/Fanpage/contenu/menu/genevincent.png"
-          alt="Gene Vincent"
-        />
-      </div>
+      <a
+        href="fanpage2.html"
+        class="cd"
+        data-audio="contenu/fanpage2/gene_vincent_music_extrait.mp3"
+      >
+        <img src="contenu/menu/genevincent.png" alt="CD Gene Vincent" />
+      </a>
 
-      <div class="vinyle">
-        <img
-          src="/home/margaux-solia/Bureau/lptf/projets/b1/runtrack_html/Fanpage/contenu/menu/ozzyosbourne.png"
-          alt="Ozzy Osbourne"
-        />
-      </div>
-
-      <div class="vinyle">
-        <img
-          src="/home/margaux-solia/Bureau/lptf/projets/b1/runtrack_html/Fanpage/contenu/menu/soad.png"
-          alt="System of a Down"
-        />
-      </div>
+      <a
+        href="fanpage3.html"
+        class="cd"
+        data-audio="contenu/fanpage3/ozzy_osbourne_music_extrait.mp3"
+      >
+        <img src="contenu/menu/ozzyosbourne.png" alt="CD Ozzy Osbourne" />
+      </a>
     </section>
   </body>
 
