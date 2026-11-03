@@ -58,7 +58,7 @@ Chaque membre prend en charge son univers, de la réflexion UX/UI jusqu'à l'int
 | Membre   | Univers       |
 | -------- | ------------- |
 | Reniko   | Linkin Park   |
-| Laeticia | Jane Vincent  |
+| Laeticia | Gene Vincent  |
 | Margaux  | Ozzy Osbourne |
 
 ## LET'S ROCK
