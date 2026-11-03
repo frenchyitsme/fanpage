@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #8710a2;
+  color: #ffffff;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.container {
+  width: 95%;
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero {
+  height: 200px;
+}
+
+.presentation-image {
+  height: 220px;
+}
+
+.image-finale {
+  height: 200px;
+}
+
+.titre {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  color: #ffffff;
+}
+
+.introduction {
+  padding: 20px;
+  text-align: center;
+}
+
+.description {
+  padding: 25px;
+  text-align: center;
+}
+
+.presentation {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.presentation-texte {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.separateur-etoiles {
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 1;
+  letter-spacing: 10px;
+  padding: 25px 0;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 90%;
+    gap: 25px;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .presentation {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .presentation-image {
+    height: 50px;
+  }
+
+  .image-finale {
+    height: 50px;
+  }
+
+  .separateur-etoiles {
+    font-size: 18px;
+    gap: 8px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 85%;
+  }
+
+  .header {
+    padding: 25px 5%;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .hero {
+    height: 400px;
+  }
+
+  .presentation-image {
+    height: 300px;
+  }
+
+  .image-finale {
+    height: 300px;
+  }
+
+  .separateur-etoiles {
+    font-size: 50px;
+  }
+}
